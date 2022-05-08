@@ -20,6 +20,10 @@ header {
 header h1 {
     font-size: 40px;
     font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 5px;
 }
 
 header ul {
@@ -32,13 +36,17 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: rgb(49, 187, 44);
+    color: rgb(48, 53, 48);
+    font-weight: bold;
     padding: 5px;
     margin-right: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
 }
 
 header ul li a:hover {
-    background-color: lightblue;
+    color: yellow;
+    
 }
 
 .cover {
