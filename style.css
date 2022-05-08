@@ -1,0 +1,74 @@
+* {
+    /* border: 1px solid black; */
+}
+body {
+    font: 12pt sans-serif;
+    background-image: url(img/sayagata-400px.png);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    padding: 20px;
+
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header ul {
+    margin-left: -40px
+}
+header ul li {
+    display: inline-block;
+    /* margin-left: -50px; */
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(49, 187, 44);
+    padding: 5px;
+    margin-right: 5px;
+}
+
+header ul li a:hover {
+    background-color: lightblue;
+}
+
+.cover {
+    height: 250px;
+    background-image: url(img/header\ 2.jpeg);
+    background-size: cover;
+    background-position: 0 -70px;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid salmon;
+}
+
+.content {
+    padding: 17px;
+    margin-top: -7px;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content p {
+    margin-bottom: 20px;
+    
+}
+
+footer {
+    /* padding: 5px; */
+    /* height: 5px; */
+    background-color: lightblue;
+    text-align: center;
+    font-size: 15px;
+}
